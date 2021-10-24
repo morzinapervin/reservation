@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https:fonts.googleapis.com/css?family=Courgette">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+
+    <header>
+        <h1>RSVP</h1>
+        <p>A Reservation App</p>   
+    </header>
+
+    <div class="invite-form">
+        <form id="registrar">
+            <input type="text"
+            id="name"
+            placeholder="Invite Someone"
+            />
+            <input type="hidden" id="saveid">
+            <button type="submit" id="submit" value="submit">
+                Submit
+            </button>
+            <button type="submit" id="save" value="submit">
+              Save
+          </button>
+        </form>
+    </div>
+ 
+
+
+    <div class="invitees-section">
+      <div class="row m-4 border-bottom ">
+        <p class="h3">Invitees</p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 my-6 text-center" id="invitees-container">
+    </div>
+  
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

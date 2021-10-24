@@ -1,0 +1,178 @@
+
+/* global reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(to right, #ee9ca7, #ffdde1); */
+    
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 65px;
+    font-style: italic;
+}
+header{
+    background:linear-gradient(to right, #d0d4c8, #688aca, #097b9e);
+    width: 40vw;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding: 92px;
+    color: #fff;
+    
+}
+
+
+
+
+.invite-form form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    width: 40vw;
+    margin: auto;
+    margin-top: -95px;
+   
+    
+    
+}
+
+.invite-form form input
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    background: white;
+    
+    width: 28vw;
+    box-shadow: 3px 3px 5px 1px rgba(130, 130, 140, 0.4);
+}
+
+.invite-form form button{
+    font-family: 'Poppins', sans-serif;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    background:#54c4bc;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: -91px;
+}
+
+form input:focus,
+form button:focus {
+    outline: none;
+}
+
+
+
+form button:hover {
+    color: white;
+    background: #6984b5;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    list-style: none;
+    min-width: 20%;
+    margin-top: 50px;
+}
+
+
+.registrar{
+
+        padding: 10px;
+        background: white;
+        margin-bottom: 5px;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+        transition: all 0.5s ease;
+    
+}
+
+.invitees-section{
+    width: 80vw;
+    margin: auto;
+    color:#097b9e ;
+    
+
+}
+
+.invitees-section p {
+    font-weight: 600;
+}
+
+.border-bottom {
+    border-bottom: 3px solid #487aac!important;
+}
+
+#invitees-container{
+    width: 80vw;
+    margin: auto;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.btn-list{
+    padding-left: 0;
+    text-align: initial;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .4rem .5rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+    color: #fff;
+}
+
+.btn-edit {
+background-color: #097b9e;
+}
+
+.btn-delete {
+    background-color: #69adc2;
+    }
+.card{
+    border-color: #097b9e;
+}
+
+.card-header{
+    background-color:#097b9e !important;
+    border-color: #097b9e;
+}
+
+
+.card-visible{
+    display: block;
+}
+
+#save{
+    display: none;
+    margin-left: -74px;
+    background-color: #75ae75;
+
+}
